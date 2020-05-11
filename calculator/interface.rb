@@ -136,19 +136,6 @@ until user_answer == 'N'
 
   puts "what do you want to perform as an operation: type + - * /"
   operator = gets.chomp
-  # case operator # operator ==
-  # when "+"
-  #  result =  first_number + second_number
-  # when "-"
-  #  result =  first_number - second_number
-  # when "/"
-  #  result =  first_number / second_number
-  # when "*"
-  #  result =  first_number * second_number
-  # else
-  #   puts "please enter an operator that exists: + / - *"
-  # end
-
   # executing a method is calling a method with some arguments
   puts final_result = calculate(first_number, second_number, operator)
 
