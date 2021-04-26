@@ -137,7 +137,7 @@ until user_answer == 'N'
   puts "what do you want to perform as an operation: type + - * /"
   operator = gets.chomp
   # executing a method is calling a method with some arguments
-  puts final_result = calculate(first_number, second_number, operator)
+  final_result = calculate(first_number, second_number, operator)
 
   puts "Your result is #{final_result}"
 
